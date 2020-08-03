@@ -19,8 +19,8 @@ $.ajax({
 | Parametro | Descripcion |
 | ------ | ------ |
 | datatype | Indica que formato tienen los datos que queremos enviar |
-| data | Indica la informacion que deseamos enviar |
-| url | url al cual realizaremos la peticion |
+| data | Indica la información que deseamos enviar |
+| Url | Url al cual realizaremos la petición |
 
 ## Crear un contacto
 
