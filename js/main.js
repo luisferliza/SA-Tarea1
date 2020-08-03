@@ -15,7 +15,7 @@ function getContacts() {
         type: 'GET',
         url: url,
         crossDomain: false,
-        success: function (data, status) {
+        success: function (data) {
             let response = JSON.parse(data);
             if (response._embedded) {
                 let tableBuilder = `<tr>
@@ -44,7 +44,6 @@ function createContact() {
         type: 'POST',
         dataType: 'json',
         data: JSON.stringify({ name: contactName }),
-
         success: function (data) {
             console.log(data)
             alert('Usuario creado correctamente!');
