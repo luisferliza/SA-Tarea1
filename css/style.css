@@ -1,0 +1,76 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+
+/*---------- Añadido Manualmente ------------*/
+
+.pbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5:hover  {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5{
+  background-color: #555555;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #555555;
+  color: white;
+}
+
+h1.full-width {
+  width:50%;
+  padding: 0 5% 0 5%;
+  text-align:left;
+}
+
+h2.full-width {
+  width:50%;
+  padding: 0 5% 0 5%;
+  text-align:left;
+}
+
+input.full-width {
+  width:50%;
+  padding: 0 1% 0 1%;
+  text-align:left;
+}
+
+label.full-width {
+  width:50%;
+  padding: 0 0 0 5%;
+  text-align:left;
+}
