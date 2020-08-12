@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>SA - Tarea1 - 201602656</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <h1 class="full-width"> Crear un nuevo contacto: </h1>
+
+    <label class="full-width">Nombre: </label>
+    <input class="full-width" type="text" id="nameInput"></p>
+    <br />
+    
+    <div align="center">
+        <button class="pbutton button5" id="buttonCreate" onclick="createContact()">Crear</button>
+    </div>
+
+    <h1 class="full-width"> Contactos en el sistema: </h1>
+    <h2 class="full-width"> Carné: 201602656 </h2>
+    <br />
+
+    <table align="center" id="contactsList">
+    </table>
+
+    <div align="center">
+        <button class="pbutton button5" onclick="getContacts()">Actualizar</button>
+    </div>
+
+    
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
